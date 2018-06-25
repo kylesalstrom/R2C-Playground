@@ -2,7 +2,17 @@
 	<link rel="stylesheet" type="text/css" href="Test.css">
 	<script src="Test.js"></script>
 </head>
-<body>
+<body onload="updateScreen()">
+	<div class="center">
+	<button onclick="prevDay()">&lt&lt Prev Dog</button>
+	<button onclick="nextDay()">Next Dog &gt&gt</button>
+	</div>
+	<br/>
+	<div>
+	<a href="http://www.dogoftheday.com/"><img id="dotd" title="Dog of The Day" class="center"></a>
+	</div>
+	<br/>
+	<div class="footer">
 	<h1 id="header">Hello, World!</h1>
-	<button onclick="goYellow('header')">Go Yellow</button>
+	</div>
 </body>

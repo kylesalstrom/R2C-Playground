@@ -1,4 +1,18 @@
 body {
          background: black;
-         color: #80c0c0 
+         color: #80c0c0; 
      }
+img{
+	max-width:50%;
+	max-height:80vh;
+}
+div.footer{
+	position: fixed;
+	bottom: 10px
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
